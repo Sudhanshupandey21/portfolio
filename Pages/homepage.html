@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sudhanshu Pandey - Full-Stack Developer & AI/ML Engineer</title>
+    <meta name="description" content="Portfolio of Sudhanshu Pandey - Bridging full-stack development with AI/ML innovation. Academic excellence meets practical application." />
+    <meta name="keywords" content="Full-Stack Developer, AI/ML Engineer, Software Development, Portfolio, Sudhanshu Pandey" />
+    <meta property="og:title" content="Sudhanshu Pandey - Full-Stack Developer & AI/ML Engineer" />
+    <meta property="og:description" content="Building tomorrow's solutions today. Explore my journey from academic foundation to professional expertise." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?q=80&w=2940&auto=format&fit=crop" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fportfolio8117back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-slate-900 text-slate-50 font-inter antialiased overflow-x-hidden">
+    <!-- Navigation Header -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-custom border-b border-slate-800 transition-all duration-300">
+        <div class="container-custom">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-2 group">
+                        <div class="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:shadow-glow transition-all duration-300">
+                            <span class="text-white font-bold text-lg">SP</span>
+                        </div>
+                        <span class="text-xl font-bold gradient-text hidden sm:block">Sudhanshu Pandey</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Home</a>
+                    <a href="skills.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Skills</a>
+                    <a href="projects.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Projects</a>
+                    <a href="certifications.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Certifications</a>
+                    <a href="career.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Career</a>
+                    <a href="contact.html" class="btn-primary">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-slate-800 transition-colors duration-300">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden bg-slate-800 border-t border-slate-700 hidden">
+            <div class="container-custom py-4 space-y-2">
+                <a href="homepage.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Home</a>
+                <a href="skills.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Skills</a>
+                <a href="projects.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Projects</a>
+                <a href="certifications.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Certifications</a>
+                <a href="career.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Career</a>
+                <a href="contact.html" class="block px-4 py-2 text-center bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 via-transparent to-violet-500/10"></div>
+        
+        <!-- Animated Background Shapes -->
+        <div class="absolute top-20 left-10 w-72 h-72 bg-indigo-500/20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl animate-pulse-slow" style="animation-delay: 1s;"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl animate-bounce-slow"></div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 container-custom text-center">
+            <div class="max-w-4xl mx-auto animate-fade-in">
+                <!-- Profile Image -->
+                <div class="mb-8">
+                    <div class="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-gradient-primary shadow-glow">
+                        <img src="https://iili.io/KEuKqEg.jpg" alt="Sudhanshu Pandey" class="w-full h-full object-cover" onerror="this.src='https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                    </div>
+                </div>
+
+                <!-- Animated Greeting -->
+                <div class="mb-6">
+                    <h1 class="text-5xl md:text-7xl font-bold mb-4">
+                        <span class="gradient-text">Hello, I'm</span><br />
+                        <span class="text-white">Sudhanshu Pandey</span>
+                    </h1>
+                    <div class="text-xl md:text-2xl text-slate-300 mb-6">
+                        <span id="typed-text" class="border-r-2 border-indigo-400 pr-1"></span>
+                    </div>
+                </div>
+
+                <!-- Key Messages -->
+                <div class="mb-8 space-y-4">
+                    <p class="text-lg md:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed">
+                        Bridging full-stack development with AI/ML innovation. Academic excellence meets practical application, building tomorrow's solutions today.
+                    </p>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+                    <a href="projects.html" class="btn-primary text-lg px-8 py-4 group">
+                        <i class="fas fa-code mr-2 group-hover:rotate-12 transition-transform duration-300"></i>
+                        View My Work
+                    </a>
+                    <a href="contact.html" class="btn-outline text-lg px-8 py-4 group">
+                        <i class="fas fa-envelope mr-2 group-hover:scale-110 transition-transform duration-300"></i>
+                        Let's Connect
+                    </a>
+                    <a href="https://drive.google.com/file/d/1n14rqiwF7stdtGVcULXpPfV55_rHq9zK/view?usp=sharing" class="btn-ghost text-lg px-8 py-4 group" onclick="downloadResume()">
+                        <i class="fas fa-download mr-2 group-hover:translate-y-1 transition-transform duration-300"></i>
+                        Download Resume
+                    </a>
+                </div>
+
+                <!-- Social Proof Stats -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto">
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">15+</div>
+                        <div class="text-sm text-slate-400">Projects Completed</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">8+</div>
+                        <div class="text-sm text-slate-400">Technologies</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">5+</div>
+                        <div class="text-sm text-slate-400">Certifications</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">3.8</div>
+                        <div class="text-sm text-slate-400">GPA</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scroll Indicator -->
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <div class="w-6 h-10 border-2 border-slate-400 rounded-full flex justify-center">
+                    <div class="w-1 h-3 bg-slate-400 rounded-full mt-2 animate-pulse"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Navigation Section -->
+    <section id="quick-nav" class="section-padding bg-slate-800/50">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="gradient-text">Explore My Journey</span>
+                </h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">
+                    Discover my technical expertise, professional experience, and continuous learning path
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skills Card -->
+                <a href="skills.html" class="card-elevated p-8 group hover:scale-105 transition-all duration-300 hover:shadow-glow">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-glow transition-all duration-300">
+                            <i class="fas fa-code text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-indigo-400 transition-colors duration-300">Technical Skills</h3>
+                        <p class="text-slate-400 mb-6">Interactive skill visualization with proficiency indicators and learning trajectories</p>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">React</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Python</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">AI/ML</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Projects Card -->
+                <a href="projects.html" class="card-elevated p-8 group hover:scale-105 transition-all duration-300 hover:shadow-glow-secondary">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-r from-violet-500 to-purple-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-glow-secondary transition-all duration-300">
+                            <i class="fas fa-project-diagram text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-violet-400 transition-colors duration-300">Project Portfolio</h3>
+                        <p class="text-slate-400 mb-6">Detailed case studies with live demos, code walkthroughs, and technical deep-dives</p>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Full-Stack</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">AI/ML</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Web Apps</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Certifications Card -->
+                <a href="certifications.html" class="card-elevated p-8 group hover:scale-105 transition-all duration-300 hover:shadow-glow-accent">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-glow-accent transition-all duration-300">
+                            <i class="fas fa-certificate text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-cyan-400 transition-colors duration-300">Certifications</h3>
+                        <p class="text-slate-400 mb-6">Academic achievements and continuous learning documentation with NPTEL certifications</p>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">NPTEL</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Academic</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Industry</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Career Card -->
+                <a href="career.html" class="card-elevated p-8 group hover:scale-105 transition-all duration-300 hover:shadow-glow">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-r from-emerald-500 to-green-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-glow transition-all duration-300">
+                            <i class="fas fa-chart-line text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-emerald-400 transition-colors duration-300">Career Journey</h3>
+                        <p class="text-slate-400 mb-6">Visual timeline with milestones, goals, and progress tracking</p>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Timeline</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Goals</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Growth</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Contact Card -->
+                <a href="contact.html" class="card-elevated p-8 group hover:scale-105 transition-all duration-300 hover:shadow-glow-secondary">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-r from-pink-500 to-rose-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-glow-secondary transition-all duration-300">
+                            <i class="fas fa-envelope text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-pink-400 transition-colors duration-300">Get In Touch</h3>
+                        <p class="text-slate-400 mb-6">Multi-channel communication with form handling and social integration</p>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">Email</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">LinkedIn</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">GitHub</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Academic Excellence Card -->
+                <div class="card-elevated p-8 group hover:scale-105 transition-all duration-300 hover:shadow-glow-accent">
+                    <div class="text-center">
+                        <div class="w-16 h-16 bg-gradient-to-r from-amber-500 to-orange-500 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:shadow-glow-accent transition-all duration-300">
+                            <i class="fas fa-graduation-cap text-2xl text-white"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-4 group-hover:text-amber-400 transition-colors duration-300">Academic Excellence</h3>
+                        <p class="text-slate-400 mb-6">Educational achievements and continuous learning commitment</p>
+                        <div class="flex flex-wrap gap-2 justify-center">
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">3.8 GPA</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">B.Tech</span>
+                            <span class="px-3 py-1 bg-slate-700 text-xs rounded-full">CS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Achievements Section -->
+    <section id="achievements" class="section-padding bg-slate-900">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="gradient-text">Recent Achievements</span>
+                </h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">
+                    Latest milestones in my journey of continuous learning and professional growth
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Achievement 1 -->
+                <div class="card p-6 group hover:shadow-glow transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-trophy text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-2 group-hover:text-indigo-400 transition-colors duration-300">NPTEL Certification</h4>
+                            <p class="text-slate-400 text-sm mb-2">Completed advanced course in Machine Learning</p>
+                            <span class="text-xs text-slate-500">December 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 2 -->
+                <div class="card p-6 group hover:shadow-glow-secondary transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-violet-500 to-purple-500 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-code-branch text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-2 group-hover:text-violet-400 transition-colors duration-300">Open Source Contribution</h4>
+                            <p class="text-slate-400 text-sm mb-2">Major contribution to React ecosystem</p>
+                            <span class="text-xs text-slate-500">November 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievement 3 -->
+                <div class="card p-6 group hover:shadow-glow-accent transition-all duration-300">
+                    <div class="flex items-start space-x-4">
+                        <div class="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full flex items-center justify-center flex-shrink-0">
+                            <i class="fas fa-rocket text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold mb-2 group-hover:text-cyan-400 transition-colors duration-300">Project Launch</h4>
+                            <p class="text-slate-400 text-sm mb-2">Successfully deployed AI-powered web application</p>
+                            <span class="text-xs text-slate-500">October 2024</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Footer -->
+    <footer class="bg-slate-800 border-t border-slate-700">
+        <div class="container-custom py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">SP</span>
+                        </div>
+                        <span class="text-xl font-bold gradient-text">Sudhanshu Pandey</span>
+                    </div>
+                    <p class="text-slate-400 mb-4">Full-Stack Developer & AI/ML Engineer building tomorrow's solutions today.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com/Sudhanshupandey21" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sudhanshu-pandey5410/" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="https://twitter.com/sudhanshu_dev" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="mailto:sudhanshu541005@gmail.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="skills.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Skills</a>
+                        <a href="projects.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Projects</a>
+                        <a href="certifications.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Certifications</a>
+                        <a href="career.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Career</a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-bold mb-4">Get In Touch</h4>
+                    <div class="space-y-2">
+                        <p class="text-slate-400">
+                            <i class="fas fa-envelope mr-2"></i>
+                            sudhanshu541005@gmail.com
+                        </p>
+                        <p class="text-slate-400">
+                            <i class="fas fa-phone mr-2"></i>
+                            +91 96911 99438
+                        </p>
+                        <p class="text-slate-400">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            India
+                        </p>
+                        <p class="text-slate-400">
+                            <i class="fas fa-clock mr-2"></i>
+                            Available 9 AM - 8 PM IST
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+                <p class="text-slate-400">© 2025 Sudhanshu Pandey. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-slate-900/95');
+            } else {
+                navbar.classList.remove('bg-slate-900/95');
+            }
+        });
+
+        // Typing animation
+        const typedText = document.getElementById('typed-text');
+        const phrases = [
+            'Full-Stack Developer',
+            'AI/ML Engineer',
+            'Problem Solver',
+            'Innovation Builder'
+        ];
+        let phraseIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeText() {
+            const currentPhrase = phrases[phraseIndex];
+            
+            if (isDeleting) {
+                typedText.textContent = currentPhrase.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typedText.textContent = currentPhrase.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentPhrase.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                phraseIndex = (phraseIndex + 1) % phrases.length;
+            }
+
+            const typingSpeed = isDeleting ? 50 : 100;
+            setTimeout(typeText, typingSpeed);
+        }
+
+        // Start typing animation
+        typeText();
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Download resume function
+        function downloadResume() {
+            // Create a temporary link element
+            const link = document.createElement('a');
+            link.href = '#'; // Replace with actual resume URL
+            link.download = 'Sudhanshu_Pandey_Resume.pdf';
+            link.click();
+            
+            // Show notification
+            alert('Resume download will be available soon!');
+        }
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

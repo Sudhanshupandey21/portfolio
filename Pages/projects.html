@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Sudhanshu Pandey | Full-Stack Developer & AI/ML Engineer</title>
+    <meta name="description" content="Explore my comprehensive project portfolio featuring full-stack applications, AI/ML solutions, and innovative web technologies. Live demos and technical deep-dives included." />
+    <meta name="keywords" content="Projects, Portfolio, Full-Stack Development, AI/ML, React, Python, Web Applications, Software Development" />
+    <meta property="og:title" content="Projects - Sudhanshu Pandey Portfolio" />
+    <meta property="og:description" content="Comprehensive project showcase with live demos, code walkthroughs, and technical architecture insights." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2940&auto=format&fit=crop" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fportfolio8117back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.8"></script>
+</head>
+<body class="bg-slate-900 text-slate-50 font-inter antialiased overflow-x-hidden">
+    <!-- Navigation Header -->
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-custom border-b border-slate-800 transition-all duration-300">
+        <div class="container-custom">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="homepage.html" class="flex items-center space-x-2 group">
+                        <div class="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center group-hover:shadow-glow transition-all duration-300">
+                            <span class="text-white font-bold text-lg">SP</span>
+                        </div>
+                        <span class="text-xl font-bold gradient-text hidden sm:block">Sudhanshu Pandey</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Home</a>
+                    <a href="skills.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Skills</a>
+                    <a href="projects.html" class="text-white font-semibold border-b-2 border-indigo-500">Projects</a>
+                    <a href="certifications.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Certifications</a>
+                    <a href="career.html" class="text-slate-300 hover:text-white transition-colors duration-300 font-medium">Career</a>
+                    <a href="contact.html" class="btn-primary">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 rounded-lg hover:bg-slate-800 transition-colors duration-300">
+                    <i class="fas fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden bg-slate-800 border-t border-slate-700 hidden">
+            <div class="container-custom py-4 space-y-2">
+                <a href="homepage.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Home</a>
+                <a href="skills.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Skills</a>
+                <a href="projects.html" class="block px-4 py-2 text-white bg-indigo-500 rounded-lg">Projects</a>
+                <a href="certifications.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Certifications</a>
+                <a href="career.html" class="block px-4 py-2 text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition-all duration-300">Career</a>
+                <a href="contact.html" class="block px-4 py-2 text-center bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition-colors duration-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative pt-24 pb-16 overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-indigo-500/10 via-transparent to-violet-500/10"></div>
+        
+        <!-- Animated Background Shapes -->
+        <div class="absolute top-20 left-10 w-72 h-72 bg-indigo-500/20 rounded-full blur-3xl animate-pulse-slow"></div>
+        <div class="absolute bottom-20 right-10 w-96 h-96 bg-violet-500/20 rounded-full blur-3xl animate-pulse-slow" style="animation-delay: 1s;"></div>
+
+        <!-- Hero Content -->
+        <div class="relative z-10 container-custom text-center">
+            <div class="max-w-4xl mx-auto animate-fade-in">
+                <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                    <span class="gradient-text">Project</span><br />
+                    <span class="text-white">Portfolio</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Comprehensive showcase of full-stack applications, AI/ML solutions, and innovative web technologies. 
+                    Each project bridges traditional development with cutting-edge innovation.
+                </p>
+                
+                <!-- Project Stats -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-2xl mx-auto mb-12">
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">15+</div>
+                        <div class="text-sm text-slate-400">Projects</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">8+</div>
+                        <div class="text-sm text-slate-400">Technologies</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">12+</div>
+                        <div class="text-sm text-slate-400">Live Demos</div>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-2xl md:text-3xl font-bold gradient-text">100+</div>
+                        <div class="text-sm text-slate-400">GitHub Commits</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Filters Section -->
+    <section id="filters" class="section-padding bg-slate-800/50">
+        <div class="container-custom">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="gradient-text">Filter by Technology</span>
+                </h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">
+                    Explore projects by technology stack and domain expertise
+                </p>
+            </div>
+
+            <!-- Filter Controls -->
+            <div class="flex flex-wrap justify-center gap-4 mb-12">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th-large mr-2"></i>
+                    All Projects
+                </button>
+                <button class="filter-btn" data-filter="fullstack">
+                    <i class="fas fa-layer-group mr-2"></i>
+                    Full-Stack
+                </button>
+                <button class="filter-btn" data-filter="aiml">
+                    <i class="fas fa-brain mr-2"></i>
+                    AI/ML
+                </button>
+                <button class="filter-btn" data-filter="frontend">
+                    <i class="fas fa-palette mr-2"></i>
+                    Frontend
+                </button>
+                <button class="filter-btn" data-filter="backend">
+                    <i class="fas fa-server mr-2"></i>
+                    Backend
+                </button>
+                <button class="filter-btn" data-filter="mobile">
+                    <i class="fas fa-mobile-alt mr-2"></i>
+                    Mobile
+                </button>
+                <button id="reset-filters" class="btn-ghost">
+                    <i class="fas fa-undo mr-2"></i>
+                    Reset
+                </button>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="max-w-md mx-auto mb-12">
+                <div class="relative">
+                    <input type="text" id="project-search" placeholder="Search projects..." class="w-full px-4 py-3 pl-12 bg-slate-800 border border-slate-700 rounded-lg text-white placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent" />
+                    <i class="fas fa-search absolute left-4 top-1/2 transform -translate-y-1/2 text-slate-400"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid Section -->
+    <section id="projects-grid" class="section-padding bg-slate-900">
+        <div class="container-custom">
+            <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project 1: Smart health Assistant -->
+                <div class="project-card card-elevated group hover:scale-105 transition-all duration-300 hover:shadow-glow" data-category="fullstack">
+    <div class="relative overflow-hidden rounded-t-xl">
+        <img src="https://images.unsplash.com/photo-1606207527584-88e69d8f21d1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" 
+             alt="Smart Health Assistant" 
+             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+             onerror="this.src='https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="absolute top-4 right-4">
+            <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">AI-Powered</span>
+        </div>
+    </div>
+    <div class="p-6">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xl font-bold group-hover:text-green-400 transition-colors duration-300">Smart Health Assistant</h3>
+            <div class="flex space-x-2">
+                <a href="https://github.com/yourusername/smart-health-assistant" target="_blank" class="text-slate-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+                <a href="https://smart-health-assistant-demo.vercel.app" target="_blank" class="text-slate-400 hover:text-green-400 transition-colors duration-300">
+                    <i class="fas fa-external-link-alt text-lg"></i>
+                </a>
+            </div>
+        </div>
+        <p class="text-slate-400 mb-4 text-sm">
+            AI-powered health assistant web app that helps users track health data, get personalized tips, and chat with an AI for quick health-related guidance.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="tech-badge">HTML</span>
+            <span class="tech-badge">Tailwind CSS</span>
+            <span class="tech-badge">Javascript</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Express</span>
+            <span class="tech-badge">MongoDB</span>
+            <span class="tech-badge">Gemini API</span>
+        </div>
+        <div class="flex items-center justify-between text-sm text-slate-500 mb-4">
+            <span><i class="fas fa-star mr-1"></i> 4.9/5</span>
+            <span><i class="fas fa-code-branch mr-1"></i> 5 commits</span>
+            <span><i class="fas fa-eye mr-1"></i> 1.8k views</span>
+        </div>
+        <div class="flex space-x-2">
+            <button class="btn-primary flex-1 text-sm" onclick="openDemo('smartHealth')">
+                <i class="fas fa-play mr-2"></i>
+                Live Demo
+            </button>
+            <button class="btn-outline text-sm" onclick="openCodeViewer('smartHealth')">
+                <i class="fas fa-code mr-2"></i>
+                Code
+            </button>
+        </div>
+    </div>
+</div>
+
+
+               <!-- Project 2: Voice Assistant -->
+<div class="project-card card-elevated group hover:scale-105 transition-all duration-300 hover:shadow-glow-secondary" data-category="aiml">
+    <div class="relative overflow-hidden rounded-t-xl">
+        <img src="https://images.unsplash.com/photo-1603791452906-bb376e7e57ab?q=80&w=2940&auto=format&fit=crop" 
+             alt="AI Voice Assistant" 
+             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+             onerror="this.src='https://images.pexels.com/photos/3184302/pexels-photo-3184302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="absolute top-4 right-4">
+            <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full animate-pulse">Running</span>
+        </div>
+    </div>
+    <div class="p-6">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xl font-bold group-hover:text-green-400 transition-colors duration-300">AI Voice Assistant</h3>
+            <div class="flex space-x-2">
+                <a href="https://github.com/yourusername/voice-assistant" target="_blank" class="text-slate-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+                <a href="https://voice-assistant-demo.vercel.app" target="_blank" class="text-slate-400 hover:text-green-400 transition-colors duration-300">
+                    <i class="fas fa-external-link-alt text-lg"></i>
+                </a>
+            </div>
+        </div>
+        <p class="text-slate-400 mb-4 text-sm">
+            Real-time AI voice assistant built with Web Speech API, NLP model, and Gemini API. Responds to voice commands, provides answers, and performs basic tasks. <strong class="text-green-400">Currently running live!</strong>
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Web Speech API</span>
+            <span class="tech-badge">Gemini API</span>
+            <span class="tech-badge">HTML/CSS</span>
+        </div>
+        <div class="flex items-center justify-between text-sm text-slate-500 mb-4">
+            <span><i class="fas fa-star mr-1"></i> 5.0/5</span>
+            <span><i class="fas fa-code-branch mr-1"></i> 80 commits</span>
+            <span><i class="fas fa-eye mr-1"></i> 3.2k views</span>
+        </div>
+        <div class="flex space-x-2">
+            <button class="btn-secondary flex-1 text-sm" onclick="openDemo('voiceAssistant')">
+                <i class="fas fa-microphone mr-2"></i>
+                Try Live
+            </button>
+            <button class="btn-outline text-sm" onclick="openCodeViewer('voiceAssistant')">
+                <i class="fas fa-code mr-2"></i>
+                Code
+            </button>
+        </div>
+    </div>
+</div>
+
+                <!-- Project 3: Task Management App -->
+                <div class="project-card card-elevated group hover:scale-105 transition-all duration-300 hover:shadow-glow-accent" data-category="frontend">
+                    <div class="relative overflow-hidden rounded-t-xl">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?q=80&w=2939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Task Management App" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        <div class="absolute top-4 right-4">
+                            <span class="px-3 py-1 bg-cyan-500 text-white text-xs rounded-full">Popular</span>
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold group-hover:text-cyan-400 transition-colors duration-300">Zentask</h3>
+                            <div class="flex space-x-2">
+                                <a href="https://github.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                                    <i class="fab fa-github text-lg"></i>
+                                </a>
+                                <a href="javascript:void(0)" class="text-slate-400 hover:text-cyan-400 transition-colors duration-300">
+                                    <i class="fas fa-external-link-alt text-lg"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text-slate-400 mb-4 text-sm">
+                            Modern task management application with drag-and-drop functionality, real-time collaboration, and advanced filtering. Built with React and TypeScript.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge">React</span>
+                            <span class="tech-badge">TypeScript</span>
+                            <span class="tech-badge">Tailwind</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
+                        <div class="flex items-center justify-between text-sm text-slate-500 mb-4">
+                            <span><i class="fas fa-star mr-1"></i> 4.7/5</span>
+                            <span><i class="fas fa-code-branch mr-1"></i> 38 commits</span>
+                            <span class="text-cyan-400"><i class="fas fa-fire mr-1"></i> Trending</span>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button class="btn-accent flex-1 text-sm" onclick="openDemo('taskflow')">
+                                <i class="fas fa-play mr-2"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-outline text-sm" onclick="openCodeViewer('taskflow')">
+                                <i class="fas fa-code mr-2"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Data Analytics Dashboard -->
+                <!-- Project: Personal Portfolio -->
+<div class="project-card card-elevated group hover:scale-105 transition-all duration-300 hover:shadow-glow" data-category="frontend">
+    <div class="relative overflow-hidden rounded-t-xl">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2940&auto=format&fit=crop" 
+             alt="Personal Portfolio Website" 
+             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500"
+             onerror="this.src='https://images.pexels.com/photos/1181673/pexels-photo-1181673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="absolute top-4 right-4">
+            <span class="px-3 py-1 bg-indigo-500 text-white text-xs rounded-full">Portfolio</span>
+        </div>
+    </div>
+    <div class="p-6">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xl font-bold group-hover:text-indigo-400 transition-colors duration-300">Personal Portfolio</h3>
+            <div class="flex space-x-2">
+                <a href="https://github.com/yourusername/portfolio" target="_blank" class="text-slate-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+                <a href="https://your-portfolio-site.vercel.app" target="_blank" class="text-slate-400 hover:text-indigo-400 transition-colors duration-300">
+                    <i class="fas fa-external-link-alt text-lg"></i>
+                </a>
+            </div>
+        </div>
+        <p class="text-slate-400 mb-4 text-sm">
+            Modern, responsive personal portfolio website showcasing skills, projects, certifications, and contact form. Features smooth scrolling, animations, and easy-to-update data structure.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="tech-badge">HTML</span>
+            <span class="tech-badge">CSS</span>
+            <span class="tech-badge">JavaScript</span>
+            <span class="tech-badge">Tailwind</span>
+        </div>
+        <div class="flex items-center justify-between text-sm text-slate-500 mb-4">
+            <span><i class="fas fa-star mr-1"></i> 5.0/5</span>
+            <span><i class="fas fa-code-branch mr-1"></i> 35 commits</span>
+            <span><i class="fas fa-eye mr-1"></i> 1.5k views</span>
+        </div>
+        <div class="flex space-x-2">
+            <button class="btn-primary flex-1 text-sm" onclick="openDemo('portfolio')">
+                <i class="fas fa-play mr-2"></i>
+                Live Site
+            </button>
+            <button class="btn-outline text-sm" onclick="openCodeViewer('portfolio')">
+                <i class="fas fa-code mr-2"></i>
+                Code
+            </button>
+        </div>
+    </div>
+</div>
+
+                <!-- Project 5: Spotify Clone -->
+<div class="project-card card-elevated group hover:scale-105 transition-all duration-300 hover:shadow-glow-secondary" data-category="fullstack">
+    <div class="relative overflow-hidden rounded-t-xl">
+        <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?q=80&w=2940&auto=format&fit=crop" 
+             alt="Spotify Clone" 
+             class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" 
+             onerror="this.src='https://images.pexels.com/photos/1648538/pexels-photo-1648538.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+        <div class="absolute top-4 right-4">
+            <span class="px-3 py-1 bg-green-500 text-white text-xs rounded-full">Music App</span>
+        </div>
+    </div>
+    <div class="p-6">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xl font-bold group-hover:text-green-400 transition-colors duration-300">Spotify Clone</h3>
+            <div class="flex space-x-2">
+                <a href="https://github.com/yourusername/spotify-clone" target="_blank" class="text-slate-400 hover:text-white transition-colors duration-300">
+                    <i class="fab fa-github text-lg"></i>
+                </a>
+                <a href="https://spotify-clone-demo.vercel.app" target="_blank" class="text-slate-400 hover:text-green-400 transition-colors duration-300">
+                    <i class="fas fa-external-link-alt text-lg"></i>
+                </a>
+            </div>
+        </div>
+        <p class="text-slate-400 mb-4 text-sm">
+            Full-featured Spotify clone with user authentication, playlists, music streaming, and responsive design. Built using React, Tailwind, and Node.js with real-time audio playback.
+        </p>
+        <div class="flex flex-wrap gap-2 mb-4">
+            <span class="tech-badge">React</span>
+            <span class="tech-badge">Tailwind</span>
+            <span class="tech-badge">Node.js</span>
+            <span class="tech-badge">Spotify API</span>
+        </div>
+        <div class="flex items-center justify-between text-sm text-slate-500 mb-4">
+            <span><i class="fas fa-star mr-1"></i> 4.9/5</span>
+            <span><i class="fas fa-code-branch mr-1"></i> 42 commits</span>
+            <span><i class="fas fa-headphones mr-1"></i> 1.2k plays</span>
+        </div>
+        <div class="flex space-x-2">
+            <button class="btn-secondary flex-1 text-sm" onclick="openDemo('spotifyclone')">
+                <i class="fas fa-play mr-2"></i>
+                Live Demo
+            </button>
+            <button class="btn-outline text-sm" onclick="openCodeViewer('spotifyclone')">
+                <i class="fas fa-code mr-2"></i>
+                Code
+            </button>
+        </div>
+    </div>
+</div>
+
+
+                <!-- Project 6: API Gateway -->
+                <div class="project-card card-elevated group hover:scale-105 transition-all duration-300 hover:shadow-glow-accent" data-category="backend">
+                    <div class="relative overflow-hidden rounded-t-xl">
+                        <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="API Gateway" class="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-500" onerror="this.src='https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex items-center justify-between mb-4">
+                            <h3 class="text-xl font-bold group-hover:text-cyan-400 transition-colors duration-300">SecureGate API</h3>
+                            <div class="flex space-x-2">
+                                <a href="https://github.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                                    <i class="fab fa-github text-lg"></i>
+                                </a>
+                                <a href="javascript:void(0)" class="text-slate-400 hover:text-cyan-400 transition-colors duration-300">
+                                    <i class="fas fa-external-link-alt text-lg"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="text-slate-400 mb-4 text-sm">
+                            High-performance API gateway with authentication, rate limiting, load balancing, and monitoring. Handles 10k+ requests per second.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="tech-badge">Go</span>
+                            <span class="tech-badge">Redis</span>
+                            <span class="tech-badge">Docker</span>
+                            <span class="tech-badge">Kubernetes</span>
+                        </div>
+                        <div class="flex items-center justify-between text-sm text-slate-500 mb-4">
+                            <span><i class="fas fa-star mr-1"></i> 4.9/5</span>
+                            <span><i class="fas fa-code-branch mr-1"></i> 73 commits</span>
+                            <span><i class="fas fa-tachometer-alt mr-1"></i> High Performance</span>
+                        </div>
+                        <div class="flex space-x-2">
+                            <button class="btn-accent flex-1 text-sm" onclick="openDemo('securegate')">
+                                <i class="fas fa-play mr-2"></i>
+                                Live Demo
+                            </button>
+                            <button class="btn-outline text-sm" onclick="openCodeViewer('securegate')">
+                                <i class="fas fa-code mr-2"></i>
+                                Code
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- No Results Message -->
+            <div id="no-results" class="text-center py-16 hidden">
+                <div class="w-24 h-24 bg-slate-800 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="fas fa-search text-3xl text-slate-400"></i>
+                </div>
+                <h3 class="text-2xl font-bold mb-4">No Projects Found</h3>
+                <p class="text-slate-400 mb-6">Try adjusting your filters or search terms</p>
+                <button class="btn-primary" onclick="resetFilters()">
+                    <i class="fas fa-undo mr-2"></i>
+                    Reset Filters
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technical Architecture Section -->
+    <section id="architecture" class="section-padding bg-slate-800/50">
+        <div class="container-custom">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">
+                    <span class="gradient-text">Technical Architecture</span>
+                </h2>
+                <p class="text-slate-400 max-w-2xl mx-auto">
+                    Deep dive into the technical decisions and architectural patterns used across projects
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Architecture Diagram -->
+                <div class="card p-8">
+                    <h3 class="text-2xl font-bold mb-6 gradient-text">System Architecture</h3>
+                    <div class="relative">
+                        <!-- SVG Architecture Diagram -->
+                        <svg viewBox="0 0 400 300" class="w-full h-64 mb-6">
+                            <!-- Frontend Layer -->
+                            <rect x="50" y="20" width="300" height="60" rx="8" fill="#1e293b" stroke="#6366f1" stroke-width="2"/>
+                            <text x="200" y="45" text-anchor="middle" fill="#f8fafc" font-size="14" font-weight="bold">Frontend Layer</text>
+                            <text x="200" y="65" text-anchor="middle" fill="#94a3b8" font-size="12">React • Vue.js • React Native</text>
+                            
+                            <!-- API Gateway -->
+                            <rect x="150" y="110" width="100" height="40" rx="6" fill="#334155" stroke="#8b5cf6" stroke-width="2"/>
+                            <text x="200" y="135" text-anchor="middle" fill="#f8fafc" font-size="12" font-weight="bold">API Gateway</text>
+                            
+                            <!-- Backend Services -->
+                            <rect x="50" y="180" width="80" height="40" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="2"/>
+                            <text x="90" y="205" text-anchor="middle" fill="#f8fafc" font-size="11">Auth Service</text>
+                            
+                            <rect x="160" y="180" width="80" height="40" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="2"/>
+                            <text x="200" y="205" text-anchor="middle" fill="#f8fafc" font-size="11">Core API</text>
+                            
+                            <rect x="270" y="180" width="80" height="40" rx="6" fill="#1e293b" stroke="#06b6d4" stroke-width="2"/>
+                            <text x="310" y="205" text-anchor="middle" fill="#f8fafc" font-size="11">ML Service</text>
+                            
+                            <!-- Database Layer -->
+                            <rect x="50" y="250" width="300" height="40" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="2"/>
+                            <text x="200" y="275" text-anchor="middle" fill="#f8fafc" font-size="12" font-weight="bold">Database Layer</text>
+                            
+                            <!-- Connection Lines -->
+                            <line x1="200" y1="80" x2="200" y2="110" stroke="#6366f1" stroke-width="2"/>
+                            <line x1="200" y1="150" x2="90" y2="180" stroke="#8b5cf6" stroke-width="2"/>
+                            <line x1="200" y1="150" x2="200" y2="180" stroke="#8b5cf6" stroke-width="2"/>
+                            <line x1="200" y1="150" x2="310" y2="180" stroke="#8b5cf6" stroke-width="2"/>
+                            <line x1="90" y1="220" x2="90" y2="250" stroke="#06b6d4" stroke-width="2"/>
+                            <line x1="200" y1="220" x2="200" y2="250" stroke="#06b6d4" stroke-width="2"/>
+                            <line x1="310" y1="220" x2="310" y2="250" stroke="#06b6d4" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-indigo-500 rounded"></div>
+                            <span class="text-sm text-slate-300">Frontend frameworks with responsive design</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-violet-500 rounded"></div>
+                            <span class="text-sm text-slate-300">API Gateway for request routing and security</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-cyan-500 rounded"></div>
+                            <span class="text-sm text-slate-300">Microservices architecture for scalability</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-4 h-4 bg-emerald-500 rounded"></div>
+                            <span class="text-sm text-slate-300">Database layer with caching and optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Technology Stack -->
+                <div class="card p-8">
+                    <h3 class="text-2xl font-bold mb-6 gradient-text">Technology Stack</h3>
+                    <div class="space-y-6">
+                        <!-- Frontend -->
+                        <div>
+                            <h4 class="font-semibold mb-3 text-indigo-400">Frontend Development</h4>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fab fa-react text-cyan-400"></i>
+                                    <span class="text-sm">React.js</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fab fa-vuejs text-emerald-400"></i>
+                                    <span class="text-sm">Vue.js</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fab fa-js-square text-yellow-400"></i>
+                                    <span class="text-sm">TypeScript</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-mobile-alt text-violet-400"></i>
+                                    <span class="text-sm">React Native</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Backend -->
+                        <div>
+                            <h4 class="font-semibold mb-3 text-violet-400">Backend Development</h4>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fab fa-node-js text-green-400"></i>
+                                    <span class="text-sm">Node.js</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fab fa-python text-blue-400"></i>
+                                    <span class="text-sm">Python</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-code text-cyan-400"></i>
+                                    <span class="text-sm">Go</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-database text-orange-400"></i>
+                                    <span class="text-sm">PostgreSQL</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- AI/ML -->
+                        <div>
+                            <h4 class="font-semibold mb-3 text-cyan-400">AI/ML Technologies</h4>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-brain text-pink-400"></i>
+                                    <span class="text-sm">TensorFlow</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-robot text-indigo-400"></i>
+                                    <span class="text-sm">OpenAI API</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-chart-line text-emerald-400"></i>
+                                    <span class="text-sm">Scikit-learn</span>
+                                </div>
+                                <div class="flex items-center space-x-2 p-3 bg-slate-700 rounded-lg">
+                                    <i class="fas fa-eye text-violet-400"></i>
+                                    <span class="text-sm">Computer Vision</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section id="cta" class="section-padding bg-slate-900">
+        <div class="container-custom">
+            <div class="text-center max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">
+                    <span class="gradient-text">Ready to Collaborate?</span>
+                </h2>
+                <p class="text-xl text-slate-300 mb-8">
+                    Let's discuss how these technical capabilities can drive your next project forward. 
+                    From concept to deployment, I bring full-stack expertise with AI/ML innovation.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="contact.html" class="btn-primary text-lg px-8 py-4 group">
+                        <i class="fas fa-envelope mr-2 group-hover:scale-110 transition-transform duration-300"></i>
+                        Start a Project
+                    </a>
+                    <a href="https://github.com" class="btn-outline text-lg px-8 py-4 group">
+                        <i class="fab fa-github mr-2 group-hover:rotate-12 transition-transform duration-300"></i>
+                        View All Code
+                    </a>
+                    <a href="skills.html" class="btn-ghost text-lg px-8 py-4 group">
+                        <i class="fas fa-code mr-2 group-hover:scale-110 transition-transform duration-300"></i>
+                        Explore Skills
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800 border-t border-slate-700">
+        <div class="container-custom py-12">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">SP</span>
+                        </div>
+                        <span class="text-xl font-bold gradient-text">Sudhanshu Pandey</span>
+                    </div>
+                    <p class="text-slate-400 mb-4">Full-Stack Developer & AI/ML Engineer building tomorrow's solutions today.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://github.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-github text-xl"></i>
+                        </a>
+                        <a href="https://linkedin.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="https://twitter.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                        <a href="mailto:sudhanshu@example.com" class="text-slate-400 hover:text-white transition-colors duration-300">
+                            <i class="fas fa-envelope text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-bold mb-4">Quick Links</h4>
+                    <div class="space-y-2">
+                        <a href="skills.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Skills</a>
+                        <a href="projects.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Projects</a>
+                        <a href="certifications.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Certifications</a>
+                        <a href="career.html" class="block text-slate-400 hover:text-white transition-colors duration-300">Career</a>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-bold mb-4">Get In Touch</h4>
+                    <div class="space-y-2">
+                        <p class="text-slate-400">
+                            <i class="fas fa-envelope mr-2"></i>
+                            sudhanshu@example.com
+                        </p>
+                        <p class="text-slate-400">
+                            <i class="fas fa-phone mr-2"></i>
+                            +91 98765 43210
+                        </p>
+                        <p class="text-slate-400">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            India
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-700 mt-8 pt-8 text-center">
+                <p class="text-slate-400">© 2025 Sudhanshu Pandey. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Demo Modal -->
+    <div id="demo-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-slate-800 rounded-xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
+                <div class="flex items-center justify-between p-6 border-b border-slate-700">
+                    <h3 id="demo-title" class="text-xl font-bold">Project Demo</h3>
+                    <button onclick="closeDemoModal()" class="text-slate-400 hover:text-white transition-colors duration-300">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+                <div class="p-6">
+                    <div class="bg-slate-900 rounded-lg p-4 mb-4">
+                        <iframe id="demo-iframe" src class="w-full h-96 rounded-lg" frameborder="0"></iframe>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <div class="flex space-x-4">
+                            <a href="#" id="demo-github" class="btn-outline">
+                                <i class="fab fa-github mr-2"></i>
+                                View Code
+                            </a>
+                            <a href="#" id="demo-live" class="btn-primary">
+                                <i class="fas fa-external-link-alt mr-2"></i>
+                                Open Live Site
+                            </a>
+                        </div>
+                        <div class="text-sm text-slate-400">
+                            <i class="fas fa-info-circle mr-1"></i>
+                            Demo environment
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code Viewer Modal -->
+    <div id="code-modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden">
+        <div class="flex items-center justify-center min-h-screen p-4">
+            <div class="bg-slate-800 rounded-xl max-w-4xl w-full max-h-[90vh] overflow-hidden">
+                <div class="flex items-center justify-between p-6 border-b border-slate-700">
+                    <h3 id="code-title" class="text-xl font-bold">Code Walkthrough</h3>
+                    <button onclick="closeCodeModal()" class="text-slate-400 hover:text-white transition-colors duration-300">
+                        <i class="fas fa-times text-xl"></i>
+                    </button>
+                </div>
+                <div class="p-6 overflow-y-auto max-h-[70vh]">
+                    <div class="space-y-4">
+                        <div class="bg-slate-900 rounded-lg p-4">
+                            <div class="flex items-center justify-between mb-3">
+                                <span class="text-sm text-slate-400">src/components/App.jsx</span>
+                                <button class="text-slate-400 hover:text-white transition-colors duration-300">
+                                    <i class="fas fa-copy"></i>
+                                </button>
+                            </div>
+                            <pre class="text-sm text-slate-300 overflow-x-auto"><code id="code-content">// Code will be loaded here
+import React from 'react';
+import { useState, useEffect } from 'react';
+
+const App = () => {
+  const [data, setData] = useState([]);
+  
+  useEffect(() => {
+    fetchData();
+  }, []);
+  
+  const fetchData = async () => {
+    // Implementation details
+  };
+  
+  return (
+    &lt;div className="app"&gt;
+      {/* Component JSX */}
+    &lt;/div&gt;
+  );
+};
+
+export default App;</code></pre>
+                        </div>
+                        <div class="flex items-center justify-between">
+                            <div class="flex space-x-4">
+                                <a href="#" id="code-github" class="btn-outline">
+                                    <i class="fab fa-github mr-2"></i>
+                                    Full Repository
+                                </a>
+                                <button class="btn-ghost" onclick="copyCode()">
+                                    <i class="fas fa-copy mr-2"></i>
+                                    Copy Code
+                                </button>
+                            </div>
+                            <div class="text-sm text-slate-400">
+                                <i class="fas fa-code mr-1"></i>
+                                React.js • TypeScript
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-slate-900/95');
+            } else {
+                navbar.classList.remove('bg-slate-900/95');
+            }
+        });
+
+        // Project filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        const searchInput = document.getElementById('project-search');
+        const noResults = document.getElementById('no-results');
+        const resetBtn = document.getElementById('reset-filters');
+
+        let currentFilter = 'all';
+        let currentSearch = '';
+
+        // Filter button styles
+        const filterBtnStyles = `
+            .filter-btn {
+                @apply px-4 py-2 rounded-lg border border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white transition-all duration-300 font-medium;
+            }
+            .filter-btn.active {
+                @apply bg-indigo-500 text-white border-indigo-500 shadow-glow;
+            }
+        `;
+        const styleSheet = document.createElement('style');
+        styleSheet.textContent = filterBtnStyles;
+        document.head.appendChild(styleSheet);
+
+        // Tech badge styles
+        const techBadgeStyles = `
+            .tech-badge {
+                @apply px-2 py-1 bg-slate-700 text-slate-300 text-xs rounded-full border border-slate-600 hover:bg-slate-600 transition-colors duration-300;
+            }
+        `;
+        const techStyleSheet = document.createElement('style');
+        techStyleSheet.textContent = techBadgeStyles;
+        document.head.appendChild(techStyleSheet);
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Update active filter
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentFilter = btn.dataset.filter;
+                filterProjects();
+            });
+        });
+
+        searchInput.addEventListener('input', (e) => {
+            currentSearch = e.target.value.toLowerCase();
+            filterProjects();
+        });
+
+        resetBtn.addEventListener('click', resetFilters);
+
+        function filterProjects() {
+            let visibleCount = 0;
+
+            projectCards.forEach(card => {
+                const category = card.dataset.category;
+                const title = card.querySelector('h3').textContent.toLowerCase();
+                const description = card.querySelector('p').textContent.toLowerCase();
+                const techBadges = Array.from(card.querySelectorAll('.tech-badge')).map(badge => badge.textContent.toLowerCase());
+
+                const matchesFilter = currentFilter === 'all' || category === currentFilter;
+                const matchesSearch = currentSearch === '' || 
+                    title.includes(currentSearch) || 
+                    description.includes(currentSearch) ||
+                    techBadges.some(tech => tech.includes(currentSearch));
+
+                if (matchesFilter && matchesSearch) {
+                    card.style.display = 'block';
+                    card.classList.add('animate-fade-in');
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                    card.classList.remove('animate-fade-in');
+                }
+            });
+
+            // Show/hide no results message
+            if (visibleCount === 0) {
+                noResults.classList.remove('hidden');
+            } else {
+                noResults.classList.add('hidden');
+            }
+        }
+
+        function resetFilters() {
+            currentFilter = 'all';
+            currentSearch = '';
+            searchInput.value = '';
+            
+            filterBtns.forEach(btn => btn.classList.remove('active'));
+            filterBtns[0].classList.add('active');
+            
+            filterProjects();
+        }
+
+        // Demo modal functions
+        function openDemo(projectId) {
+            const modal = document.getElementById('demo-modal');
+            const title = document.getElementById('demo-title');
+            const iframe = document.getElementById('demo-iframe');
+            const githubLink = document.getElementById('demo-github');
+            const liveLink = document.getElementById('demo-live');
+
+            const projectData = {
+                'shopsphere': {
+                    title: 'ShopSphere - E-Commerce Platform',
+                    demo: 'https://example.com/shopsphere-demo',
+                    github: 'https://github.com/sudhanshu/shopsphere',
+                    live: 'https://shopsphere-demo.vercel.app'
+                },
+                'intellichat': {
+                    title: 'IntelliChat AI - Chatbot Platform',
+                    demo: 'https://example.com/intellichat-demo',
+                    github: 'https://github.com/sudhanshu/intellichat',
+                    live: 'https://intellichat-ai.herokuapp.com'
+                },
+                'taskflow': {
+                    title: 'TaskFlow Pro - Task Management',
+                    demo: 'https://example.com/taskflow-demo',
+                    github: 'https://github.com/sudhanshu/taskflow',
+                    live: 'https://taskflow-pro.netlify.app'
+                },
+                'dataviz': {
+                    title: 'DataViz Pro - Analytics Dashboard',
+                    demo: 'https://example.com/dataviz-demo',
+                    github: 'https://github.com/sudhanshu/dataviz',
+                    live: 'https://dataviz-pro.vercel.app'
+                },
+                'weatherwise': {
+                    title: 'WeatherWise - Mobile Weather App',
+                    demo: 'https://example.com/weatherwise-demo',
+                    github: 'https://github.com/sudhanshu/weatherwise',
+                    live: 'https://weatherwise-app.expo.dev'
+                },
+                'securegate': {
+                    title: 'SecureGate API - API Gateway',
+                    demo: 'https://example.com/securegate-demo',
+                    github: 'https://github.com/sudhanshu/securegate',
+                    live: 'https://securegate-api.herokuapp.com'
+                }
+            };
+
+            const project = projectData[projectId];
+            if (project) {
+                title.textContent = project.title;
+                iframe.src = project.demo;
+                githubLink.href = project.github;
+                liveLink.href = project.live;
+                modal.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        function closeDemoModal() {
+            const modal = document.getElementById('demo-modal');
+            const iframe = document.getElementById('demo-iframe');
+            modal.classList.add('hidden');
+            iframe.src = '';
+            document.body.style.overflow = 'auto';
+        }
+
+        // Code viewer modal functions
+        function openCodeViewer(projectId) {
+            const modal = document.getElementById('code-modal');
+            const title = document.getElementById('code-title');
+            const codeContent = document.getElementById('code-content');
+            const githubLink = document.getElementById('code-github');
+
+            const codeData = {
+                'shopsphere': {
+                    title: 'ShopSphere - React E-Commerce Code',
+                    github: 'https://github.com/sudhanshu/shopsphere',
+                    code: `// ShopSphere E-Commerce Platform
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Provider } from 'react-redux';
+import { store } from './store/store';
+
+// Components
+import Header from './components/Header';
+import ProductList from './components/ProductList';
+import Cart from './components/Cart';
+import Checkout from './components/Checkout';
+
+const App = () => {
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    fetchProducts();
+  }, []);
+
+  const fetchProducts = async () => {
+    try {
+      const response = await fetch('/api/products');
+      const data = await response.json();
+      setProducts(data);
+    } catch (error) {
+      console.error('Error fetching products:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  return (
+    &lt;Provider store={store}&gt;
+      &lt;Router&gt;
+        &lt;div className="app"&gt;
+          &lt;Header /&gt;
+          &lt;main&gt;
+            &lt;Routes&gt;
+              &lt;Route path="/" element={&lt;ProductList products={products} loading={loading} /&gt;} /&gt;
+              &lt;Route path="/cart" element={&lt;Cart /&gt;} /&gt;
+              &lt;Route path="/checkout" element={&lt;Checkout /&gt;} /&gt;
+            &lt;/Routes&gt;
+          &lt;/main&gt;
+        &lt;/div&gt;
+      &lt;/Router&gt;
+    &lt;/Provider&gt;
+  );
+};
+
+export default App;`
+                },
+                'intellichat': {
+                    title: 'IntelliChat AI - Python ML Code',
+                    github: 'https://github.com/sudhanshu/intellichat',
+                    code: `# IntelliChat AI - Natural Language Processing
+import tensorflow as tf
+from transformers import AutoTokenizer, AutoModel
+import numpy as np
+from flask import Flask, request, jsonify
+
+class ChatbotModel:
+    def __init__(self, model_name='bert-base-uncased'):
+        self.tokenizer = AutoTokenizer.from_pretrained(model_name)
+        self.model = AutoModel.from_pretrained(model_name)
+        self.context_memory = []
+    
+    def preprocess_input(self, text):
+        """Preprocess user input for model consumption"""
+        tokens = self.tokenizer(
+            text, 
+            return_tensors='tf',
+            padding=True,
+            truncation=True,
+            max_length=512
+        )
+        return tokens
+    
+    def generate_response(self, user_input, context=None):
+        """Generate contextual response using transformer model"""
+        processed_input = self.preprocess_input(user_input)
+        
+        with tf.GradientTape() as tape:
+            outputs = self.model(processed_input['input_ids'])
+            embeddings = outputs.last_hidden_state
+        
+        # Context-aware response generation
+        if context:
+            self.context_memory.append(context)
+        
+        response = self.decode_response(embeddings)
+        return response
+    
+    def decode_response(self, embeddings):
+        """Decode model embeddings to human-readable response"""
+        # Implementation for response decoding
+        return "Generated response based on context and input"
+
+# Flask API setup
+app = Flask(__name__)
+chatbot = ChatbotModel()
+
+@app.route('/chat', methods=['POST'])
+def chat():
+    data = request.json
+    user_message = data.get('message', '')
+    context = data.get('context', None)
+    
+    response = chatbot.generate_response(user_message, context)
+    
+    return jsonify({
+        'response': response,
+        'confidence': 0.95,
+        'context_updated': True
+    })
+
+if __name__ == '__main__':
+    app.run(debug=True, host='0.0.0.0', port=5000)`
+                },
+                'taskflow': {
+                    title: 'TaskFlow Pro - React TypeScript Code',
+                    github: 'https://github.com/sudhanshu/taskflow',
+                    code: `// TaskFlow Pro - Task Management System
+import React, { useState, useEffect } from 'react';
+import { DragDropContext, Droppable, Draggable } from 'react-beautiful-dnd';
+
+interface Task {
+  id: string;
+  title: string;
+  description: string;
+  status: 'todo' | 'in-progress' | 'done';
+  priority: 'low' | 'medium' | 'high';
+  assignee?: string;
+  dueDate?: Date;
+}
+
+interface Column {
+  id: string;
+  title: string;
+  taskIds: string[];
+}
+
+const TaskBoard: React.FC = () => {
+  const [tasks, setTasks] = useState&lt;Record&lt;string, Task&gt;&gt;({});
+  const [columns, setColumns] = useState&lt;Record&lt;string, Column&gt;&gt;({
+    'todo': { id: 'todo', title: 'To Do', taskIds: [] },
+    'in-progress': { id: 'in-progress', title: 'In Progress', taskIds: [] },
+    'done': { id: 'done', title: 'Done', taskIds: [] }
+  });
+
+  useEffect(() => {
+    loadTasks();
+  }, []);
+
+  const loadTasks = async () => {
+    try {
+      const response = await fetch('/api/tasks');
+      const data = await response.json();
+      setTasks(data.tasks);
+      setColumns(data.columns);
+    } catch (error) {
+      console.error('Error loading tasks:', error);
+    }
+  };
+
+  const onDragEnd = (result: any) => {
+    const { destination, source, draggableId } = result;
+
+    if (!destination) return;
+
+    if (
+      destination.droppableId === source.droppableId &&
+      destination.index === source.index
+    ) {
+      return;
+    }
+
+    const start = columns[source.droppableId];
+    const finish = columns[destination.droppableId];
+
+    if (start === finish) {
+      const newTaskIds = Array.from(start.taskIds);
+      newTaskIds.splice(source.index, 1);
+      newTaskIds.splice(destination.index, 0, draggableId);
+
+      const newColumn = {
+        ...start,
+        taskIds: newTaskIds,
+      };
+
+      setColumns({
+        ...columns,
+        [newColumn.id]: newColumn,
+      });
+      return;
+    }
+
+    // Moving between columns
+    const startTaskIds = Array.from(start.taskIds);
+    startTaskIds.splice(source.index, 1);
+    const newStart = {
+      ...start,
+      taskIds: startTaskIds,
+    };
+
+    const finishTaskIds = Array.from(finish.taskIds);
+    finishTaskIds.splice(destination.index, 0, draggableId);
+    const newFinish = {
+      ...finish,
+      taskIds: finishTaskIds,
+    };
+
+    setColumns({
+      ...columns,
+      [newStart.id]: newStart,
+      [newFinish.id]: newFinish,
+    });
+
+    // Update task status
+    setTasks({
+      ...tasks,
+      [draggableId]: {
+        ...tasks[draggableId],
+        status: destination.droppableId as Task['status']
+      }
+    });
+  };
+
+  return (
+    &lt;DragDropContext onDragEnd={onDragEnd}&gt;
+      &lt;div className="task-board"&gt;
+        {Object.values(columns).map(column =&gt; (
+          &lt;div key={column.id} className="column"&gt;
+            &lt;h3&gt;{column.title}&lt;/h3&gt;
+            &lt;Droppable droppableId={column.id}&gt;
+              {(provided) =&gt; (
+                &lt;div
+                  {...provided.droppableProps}
+                  ref={provided.innerRef}
+                  className="task-list"
+                &gt;
+                  {column.taskIds.map((taskId, index) =&gt; {
+                    const task = tasks[taskId];
+                    return (
+                      &lt;Draggable key={task.id} draggableId={task.id} index={index}&gt;
+                        {(provided) =&gt; (
+                          &lt;div
+                            ref={provided.innerRef}
+                            {...provided.draggableProps}
+                            {...provided.dragHandleProps}
+                            className="task-card"
+                          &gt;
+                            &lt;h4&gt;{task.title}&lt;/h4&gt;
+                            &lt;p&gt;{task.description}&lt;/p&gt;
+                            &lt;span className={`priority-${task.priority}`}&gt;
+                              {task.priority}
+                            &lt;/span&gt;
+                          &lt;/div&gt;
+                        )}
+                      &lt;/Draggable&gt;
+                    );
+                  })}
+                  {provided.placeholder}
+                &lt;/div&gt;
+              )}
+            &lt;/Droppable&gt;
+          &lt;/div&gt;
+        ))}
+      &lt;/div&gt;
+    &lt;/DragDropContext&gt;
+  );
+};
+
+export default TaskBoard;`
+                }
+            };
+
+            const project = codeData[projectId] || codeData['shopsphere'];
+            title.textContent = project.title;
+            codeContent.innerHTML = project.code;
+            githubLink.href = project.github;
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeCodeModal() {
+            const modal = document.getElementById('code-modal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        function copyCode() {
+            const codeContent = document.getElementById('code-content');
+            const text = codeContent.textContent || codeContent.innerText;
+            
+            navigator.clipboard.writeText(text).then(() => {
+                // Show success feedback
+                const btn = event.target.closest('button');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = '<i class="fas fa-check mr-2"></i>Copied!';
+                btn.classList.add('text-emerald-400');
+                
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.classList.remove('text-emerald-400');
+                }, 2000);
+            }).catch(err => {
+                console.error('Failed to copy code:', err);
+            });
+        }
+
+        // Close modals on escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeDemoModal();
+                closeCodeModal();
+            }
+        });
+
+        // Close modals on backdrop click
+        document.getElementById('demo-modal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeDemoModal();
+            }
+        });
+
+        document.getElementById('code-modal').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) {
+                closeCodeModal();
+            }
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections and project cards
+        document.querySelectorAll('section, .project-card').forEach(element => {
+            observer.observe(element);
+        });
+
+        // Initialize filters
+        filterProjects();
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>
